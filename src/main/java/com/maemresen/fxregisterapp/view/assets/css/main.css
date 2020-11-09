@@ -1,0 +1,18 @@
+
+/*noinspection CssUnusedSymbol*/
+.toolbar {
+
+    -fx-background-color: #f4f4f4;
+}
+
+/*noinspection CssUnusedSymbol*/
+.bottom-toolbar {
+    -fx-alignment: center-right;
+}
+
+/**/
+#homePageMainPane {
+    -fx-background-color: #fefefe;
+
+}
+
