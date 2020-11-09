@@ -1,0 +1,187 @@
+
+.btn {
+    -fx-text-alignment: center;
+
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: transparent;
+    -fx-padding: 0.6em;
+    -fx-border-radius: 4px;
+    -fx-cursor: hand;
+
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-primary {
+
+    -fx-text-fill: #fff;
+    -fx-background-color: #0275d8;
+    -fx-border-color: #0275d8;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-primary:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #025aa5;
+    -fx-border-color: #01549b;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-secondary {
+    -fx-text-fill: #292b2c;
+    -fx-background-color: #fff;
+    -fx-border-color: #ccc;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-secondary:hover {
+    -fx-text-fill: #292b2c;
+    -fx-background-color: #e6e6e6;
+    -fx-border-color: #adadad;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-info {
+    -fx-text-fill: #fff;
+    -fx-background-color: #5bc0de;
+    -fx-border-color: #5bc0de;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-info:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #31b0d5;
+    -fx-border-color: #2aabd2;
+}
+
+.btn-success {
+    -fx-text-fill: #fff;
+    -fx-background-color: #5cb85c;
+    -fx-border-color: #5cb85c;
+}
+
+.btn-success:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #449d44;
+    -fx-border-color: #419641;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-warning {
+    -fx-text-fill: #fff;
+    -fx-background-color: #f0ad4e;
+    -fx-border-color: #f0ad4e;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-warning:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #ec971f;
+    -fx-border-color: #eb9316;
+}
+
+.btn-danger {
+    -fx-text-fill: #fff;
+    -fx-background-color: #d9534f;
+    -fx-border-color: #d9534f;
+}
+
+.btn-danger:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #c9302c;
+    -fx-border-color: #c12e2a;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-primary {
+    -fx-text-fill: #0275d8;
+
+    -fx-background-image: none;
+    -fx-background-color: transparent;
+    -fx-border-color: #0275d8;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-primary:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #0275d8;
+    -fx-border-color: #0275d8;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-secondary {
+    -fx-text-fill: #ccc;
+    -fx-background-image: none;
+    -fx-background-color: transparent;
+    -fx-border-color: #ccc;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-secondary:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #ccc;
+    -fx-border-color: #ccc;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-info {
+    -fx-text-fill: #5bc0de;
+    -fx-background-image: none;
+    -fx-background-color: transparent;
+    -fx-border-color: #5bc0de;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-info:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #5bc0de;
+    -fx-border-color: #5bc0de;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-success {
+    -fx-text-fill: #5cb85c;
+    -fx-background-image: none;
+    -fx-background-color: transparent;
+    -fx-border-color: #5cb85c;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-success:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #5cb85c;
+    -fx-border-color: #5cb85c;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-warning {
+    -fx-text-fill: #f0ad4e;
+    -fx-background-image: none;
+    -fx-background-color: transparent;
+    -fx-border-color: #f0ad4e;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-warning:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #f0ad4e;
+    -fx-border-color: #f0ad4e;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-danger {
+    -fx-text-fill: #d9534f;
+    -fx-background-image: none;
+    -fx-background-color: transparent;
+    -fx-border-color: #d9534f;
+}
+
+/*noinspection CssUnusedSymbol*/
+.btn-outline-danger:hover {
+    -fx-text-fill: #fff;
+    -fx-background-color: #d9534f;
+    -fx-border-color: #d9534f;
+
+}
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--suppress ALL -->
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import java.net.URL?>
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.maemresen.fxregisterapp.view.controllers.layouts.RegisterFormController">
+    <stylesheets>
+        <URL value="@../../java/com/maemresen/fxregisterapp/view/assets/css/button.css"/>
+        <URL value="@../../java/com/maemresen/fxregisterapp/view/assets/css/main.css"/>
+    </stylesheets>
+    <children>
+        <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+              AnchorPane.topAnchor="0.0">
+            <children>
+
+                <VBox fx:id="inputBox" alignment="CENTER">
+                    <children>
+                        <HBox>
+                            <children>
+                                <Label text="Seçili Öğrenci" prefWidth="200"/>
+                                <Label fx:id="selectedStudentInfo"/>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <HBox alignment="CENTER_LEFT">
+                    <children>
+                        <Button fx:id="registerStudentButton" mnemonicParsing="false" text="Yeni Kayıt">
+                            <styleClass>
+                                <String fx:value="btn"/>
+                                <String fx:value="btn-success"/>
+                            </styleClass>
+                            <graphic>
+                                <ImageView>
+                                    <image>
+                                        <Image url="@../../java/com/maemresen/fxregisterapp/view/assets/img/send.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                        </Button>
+                        <Label fx:id="response" text="Label" visible="false"/>
+                        <Button fx:id="searchButton" mnemonicParsing="false" text="Ara">
+                            <graphic>
+                                <ImageView>
+                                    <image>
+                                        <Image url="@../../java/com/maemresen/fxregisterapp/view/assets/img/search.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <styleClass>
+                                <String fx:value="btn"/>
+                                <String fx:value="btn-info"/>
+                            </styleClass>
+                        </Button>
+                        <Label text="Label" visible="false"/>
+                        <Button fx:id="clearSelectionButton" mnemonicParsing="false" text="Yenile">
+                            <graphic>
+                                <ImageView>
+                                    <image>
+                                        <Image url="@../../java/com/maemresen/fxregisterapp/view/assets/img/send.png"/>
+                                    </image>
+                                </ImageView>
+                            </graphic>
+                            <styleClass>
+                                <String fx:value="btn"/>
+                                <String fx:value="btn-danger"/>
+                            </styleClass>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
